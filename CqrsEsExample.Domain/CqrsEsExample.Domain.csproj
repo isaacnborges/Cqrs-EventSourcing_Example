@@ -8,4 +8,15 @@
     <ProjectReference Include="..\CqrsEsExample.Core\CqrsEsExample.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="EventHandlers\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Events\" />
+    <Folder Include="CommandHandlers\" />
+    <Folder Include="Commands\" />
+  </ItemGroup>
+
 </Project>

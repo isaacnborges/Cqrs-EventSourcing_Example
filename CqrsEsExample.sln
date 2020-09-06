@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsEsExample.Infra", "Cqrs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsEsExample.Api", "CqrsEsExample.Api\CqrsEsExample.Api.csproj", "{C30DA7BE-43D0-40B4-ADEA-A531E5E5F42C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsEsExample.Infra.EventSourcing", "CqrsEsExample.Infra.EventSourcing\CqrsEsExample.Infra.EventSourcing.csproj", "{8655BD8C-D776-408B-B701-9B0D53F7E059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsEsExample.Infra.Queries", "CqrsEsExample.Infra.Queries\CqrsEsExample.Infra.Queries.csproj", "{E79D19FB-746B-4E9A-9F09-EEDBED139A89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{C30DA7BE-43D0-40B4-ADEA-A531E5E5F42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C30DA7BE-43D0-40B4-ADEA-A531E5E5F42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C30DA7BE-43D0-40B4-ADEA-A531E5E5F42C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8655BD8C-D776-408B-B701-9B0D53F7E059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8655BD8C-D776-408B-B701-9B0D53F7E059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8655BD8C-D776-408B-B701-9B0D53F7E059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8655BD8C-D776-408B-B701-9B0D53F7E059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E79D19FB-746B-4E9A-9F09-EEDBED139A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E79D19FB-746B-4E9A-9F09-EEDBED139A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E79D19FB-746B-4E9A-9F09-EEDBED139A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E79D19FB-746B-4E9A-9F09-EEDBED139A89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
