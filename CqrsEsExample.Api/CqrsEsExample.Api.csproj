@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CqrsEsExample.Core\CqrsEsExample.Core.csproj" />
+    <ProjectReference Include="..\CqrsEsExample.Domain\CqrsEsExample.Domain.csproj" />
+    <ProjectReference Include="..\CqrsEsExample.Infra\CqrsEsExample.Infra.csproj" />
+  </ItemGroup>
+
+
+</Project>

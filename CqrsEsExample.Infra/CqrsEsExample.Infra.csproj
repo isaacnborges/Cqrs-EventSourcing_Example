@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CqrsEsExample.Core\CqrsEsExample.Core.csproj" />
+    <ProjectReference Include="..\CqrsEsExample.Domain\CqrsEsExample.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
