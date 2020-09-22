@@ -18,4 +18,9 @@
     <ProjectReference Include="..\CqrsEsExample.Domain\CqrsEsExample.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Mappings\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>
